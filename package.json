@@ -1,0 +1,19 @@
+{
+  "name": "wetube",
+  "version": "1.0.0",
+  "description": "clone wetube",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smallhippo2/wetube_reloaded.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smallhippo2/wetube_reloaded.git"
+  },
+  "homepage": "https://github.com/smallhippo2/wetube_reloaded#readme"
+}
