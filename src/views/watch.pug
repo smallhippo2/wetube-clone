@@ -1,0 +1,13 @@
+extends base
+
+block content 
+    div
+        h4=video.title
+        ul 
+            li #{video.rating} / 5
+            li #{video.comments} comments.
+            li Posted #{video.createdAt}.
+            li #{video.views} #{video.views === 1 ? "view" : "views"}
+    div 
+        a(href=`${video.id}/edit`) Edit Video. &rarr;
+        a(href=`${video.id}/delete`) Delete Video. &rarr;

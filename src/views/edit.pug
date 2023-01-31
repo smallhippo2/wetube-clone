@@ -1,0 +1,9 @@
+extends base
+
+block content 
+    h3 Change Title of Video.
+    form(method="post")
+        input(name="title" placeholder ="edit title" type="text" value=video.title)
+        input(name="descript" placeholder="edit descript" type="text" value=video.descript)
+        input(name="hashtags" placeholder=" edit hashtags" type="text" value=video.hashtags.join())
+        input(type="submit" value="button")
